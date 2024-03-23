@@ -1,0 +1,19 @@
+p{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    width: 30%;
+    border: black solid 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column ;
+}

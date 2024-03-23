@@ -1,0 +1,14 @@
+<p>inital works!</p>
+
+<div class="container">
+    @for(positions of position;track positions.rank){
+        <ul>
+            <img src={{positions.team.logo}} alt="">
+            <li>Posicion acltual: {{positions.rank}}</li>
+            <p>Nombre: {{positions.team.name}}</p>
+            <p>partidos jugados: {{positions.all.played}} </p> 
+            <p>puntos  : {{positions.points}} </p> 
+        </ul>
+    }
+</div>
+
